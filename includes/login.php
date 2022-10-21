@@ -10,7 +10,7 @@ if(isset($_POST['login']))
   mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
       $mysqli = new mysqli("localhost", "root", "", "niceadmin");
 
-    //  $id=$_GET['user_id'];
+     //  $id=$_GET['user_id'];
 
     $query2 = "SELECT id, users_email, users_password FROM users WHERE users_email = '$username'";
     $result = $mysqli->query("$query2");
@@ -33,7 +33,7 @@ if(isset($_POST['login']))
 
 
   //go to Users profile
-//  header("location: ../users.overview.php?user_id=$row[id]");
+  //  header("location: ../users.overview.php?user_id=$row[id]");
 }
 
 ?>
