@@ -2,9 +2,7 @@
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
     $mysqli = new mysqli("localhost", "root", "", "niceadmin");
 
-
-  $id=$_GET['user_id'];
-
+    $id=$_GET['user_id'];
 
     $query = "SELECT id, fullName, about, company , job, country, users_email
               FROM users
