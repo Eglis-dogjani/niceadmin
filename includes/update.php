@@ -37,13 +37,7 @@ if(isset($_POST['update']))
       header("location: ../users.overview.php?user_id=$new_id");
 
 
-
-
-
-
 }
-
-
 
 
  ?>
