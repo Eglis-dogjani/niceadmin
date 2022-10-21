@@ -51,7 +51,7 @@ if(isset($_POST['signup']))
 
 
 
-  //go to Users profile
+   //go to Users profile
   header("location: ../users.overview.php?user_id=$row[id]");
 }
 ?>
