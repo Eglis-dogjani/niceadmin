@@ -1,6 +1,6 @@
 <?php
 
-  $id=$_GET['user_id'];
+   $id=$_GET['user_id'];
 
  ?>
 
