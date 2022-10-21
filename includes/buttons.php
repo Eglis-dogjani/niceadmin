@@ -9,7 +9,7 @@
     //  $query = "SELECT id FROM users ORDER BY id DESC";
     //  $result = $mysqli->query("$query");
     //  $row = $result->fetch_assoc();
-  //    echo $row['id'];
+    //    echo $row['id'];
 
 
    ?>
