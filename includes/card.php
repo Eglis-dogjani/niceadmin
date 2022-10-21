@@ -4,7 +4,7 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 
     $id=$_GET['user_id'];
-    //'$id'
+      //'$id'
 
     $query = "SELECT image, fullName, job
               FROM users
