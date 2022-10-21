@@ -52,9 +52,9 @@ if ($password2 !== $password3) {
 
 /*
 
-  //hash_equals — Timing attack safe string comparison
-  //hash_equals($expected, $correct);
-  //Compares two strings using the same time whether they're equal or not.
+    //hash_equals — Timing attack safe string comparison
+    //hash_equals($expected, $correct);
+    //Compares two strings using the same time whether they're equal or not.
   if (hash_equals($passwordDB, $hashpass)) {
     $query = "UPDATE users SET users_password = '$hashpass2' WHERE id= '$pass_id'";
     $mysqli->query("$query");
